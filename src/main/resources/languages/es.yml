@@ -1,0 +1,160 @@
+#===================================================================================================#
+# Archivo de mensajes para el complemento Drugs de Lars_SVW. Versión 1.7.1
+#===================================================================================================#
+#
+# Si necesita ayuda, desea informar errores, etc.
+# No dudes en unirte a mi Discord: http://coding.lars-svw.de
+#
+# También puedes enviarme mensajes privados en Discord: Lars_SVW
+# O escríbeme directamente a Spigotmc: https://www.spigotmc.org/members/lars__svw.1064569/
+
+#===================================================================================================#
+# Información general:
+#===================================================================================================#
+# Puedes editar todo aquí, pero no olvides el "si se proporcionó alguno.
+# El complemento se puede utilizar en todos los servidores posibles.
+# Sin embargo, el creador del complemento no asume ninguna responsabilidad por errores u otras cosas que
+# tiene que ver con el complemento. Es posible que el complemento no se vuelva a cargar ni se pueda vender.
+# a otros usuarios! Si necesita una versión diferente del complemento, contácteme
+# usando las opciones de contacto anteriores.
+
+#===================================================================================================#
+# Códigos de colores:
+#===================================================================================================#
+# &0 = Negro &a = Verde brillante &o = Cursiva (cursiva)
+# &1 = Azul oscuro &b = Aqua &r = Restablecer
+# &2 = Verde oscuro &c = Rojo
+# &3 = Aqua oscuro &d = Rosa
+# &4 = Rojo oscuro &e = Amarillo
+# &5 = Púrpura &f = Blanco
+# &6 = Oro &k = Caracteres en constante cambio
+# &7 = Gris &l = Negrita
+# &8 = Gris oscuro &m = Huelga
+# &9 = Índigo &n = Subrayado
+
+#===================================================================================================#
+# Configuración general:
+#===================================================================================================#
+prefix: "&0&l[&a&lDrugs&0&l]"
+wrong_usage: "%prefix% &c¡Uso incorrecto! Uso correcto: %usage%"
+invalid_drug: "%prefix% &c¡Medicamento especificado no válido!"
+invalid_amount: "%prefix% &c¡Cantidad especificada no válida!"
+only_players: "%prefix% &c¡Solo los jugadores tienen autorización para ejecutar este comando! ¡Únase al servidor con una cuenta!"
+book_name: "&Libro de medicamentos electrónicos"
+drug_book_lore: "&libro eDrug del complemento Drugs de Lars_SVW"
+received_book: "%prefix% &eRecibiste con éxito el libro de medicamentos del complemento Drugs de Lars_SVW. ¡En este libro tienes todas las recetas enumeradas!"
+reload_started: "%prefix% &a¡La recarga ha comenzado!"
+reload_finished: "%prefix% &aLa recarga ha finalizado"
+drug_received: "&eRecibiste %cantidad% %drugname%"
+no_authorization: "&c¡No tienes derecho a hacer esto!"
+druginfo: "&eDHa consumido %drug% y esto ahora se puede detectar en una prueba de drogas."
+druginfo_end: "&e%drug% ya no es detectable."
+
+#===================================================================================================#
+# Configuración de malezas:
+#===================================================================================================#
+weed_seed_name: "&aSemilla de hierba"
+weed_name: "&ahierba"
+weed_lore: "&aPuedes usarlo para crear un porro"
+weed_seed_lore: "&aPuedes usar esta semilla para crear nueva hierba."
+joint_name: "&unaConjunción"
+joint_lore: "&aNecesitas un Zippo para encenderlo."
+weed_death: "&un %jugador% murió debido a una sobredosis de marihuana."
+
+#===================================================================================================#
+# Configuración de cocaína:
+#===================================================================================================#
+cocaine_name: "&aCocaína"
+cocaine_lore: "&aPuedes consumirlo para sentirte colocado."
+cocaine_seed_name: "&aPlanta de cocaína"
+cocaine_seed_lore: "&aPuedes usar esta semilla para crear nueva cocaína."
+cocaine_death: "&un %player% murió debido a una sobredosis de cocaína."
+
+#===================================================================================================#
+# Configuración del tabaco:
+#===================================================================================================#
+tobacco_seed_name: "&unaplanta de tabaco"
+tobacco_lore: "&aPuedes usarlo para liar cigarrillos."
+tobacco_seed_lore: "&aPuedes usar esta semilla para crear tabaco nuevo."
+tobacco_name: "&atabaco"
+cigarette_name: "&uncigarrillo"
+cigarette_lore: "&aPuedes usarlo para drogarte."
+lung_cancer: "¡&un %jugador% murió debido a cáncer de pulmón!"
+
+#===================================================================================================#
+# Configuración de papeles + pegamento:
+#===================================================================================================#
+papes_name: "&aPapes"
+papes_lore: "&aLo necesitas para liar un cigarrillo."
+long_papes_name: "&aPapeles largos"
+long_papes_lore: "&aLo necesitas para liar un porro."
+glue_bottle_name: "&una botella de pegamento"
+glue_bottle_lore: "&aLo necesitas para crear documentos largos."
+
+#===================================================================================================#
+# Configuración de Zippo:
+#===================================================================================================#
+zippo_name: "&aZippo"
+zippo_lore: "&aLo necesitas para encender porros o cigarrillos."
+need_zippo: "&c¡Necesitas un zippo para encender esto!"
+
+#===================================================================================================#
+# Configuración de hongos:
+#===================================================================================================#
+shroom_name: "&aSetas"
+shroom_lore: "&aPuedes usarlo para drogarte."
+shroom_death: "&un %player% murió debido a una sobredosis de hongos."
+
+#===================================================================================================#
+# Configuración de LSD:
+#===================================================================================================#
+lsd_name: "&aLSD"
+lsd_lore: "&aPuedes usarlo para drogarte."
+lysergic_acid_name: "&aÁcido lisérgico"
+lysergic_acid_lore: "&aLo necesitas para crear LSD."
+sodium_name: "&aSodio"
+sodium_lore: "&aLo necesitas para crear drogas como el LSD."
+propanolamine_name: "&aÁcido propanolamina"
+propanolamine_lore: "&aLo necesitas para crear drogas como el LSD."
+hydrogen_name: "&eHidrógeno"
+hydrogen_Lore: "&eNecesitas esto para crear drogas como el LSD."
+lsd_death: "&un %jugador% murió debido a una sobredosis de lsd."
+
+#===================================================================================================#
+# Configuración XTC:
+#===================================================================================================#
+xtc_name: "&eÉxtasis"
+xtc_lore: "&ePuedes usarlo para drogarte."
+isosafrole_name: "&eIsosafrole"
+isosafrole_lore: "&eLo necesitas para crear XTC."
+safrole_name: "&eSafrole"
+safrole_lore: "&eLo necesitas para crear XTC."
+piperonal_name: "&ePiperonal"
+piperonal_lore: "&eLo necesitas para crear XTC."
+ecstasy_death: "&un %jugador% murió debido a una sobredosis de éxtasis."
+
+#===================================================================================================#
+# Configuración de velocidad:
+#===================================================================================================#
+speed_name: "&eSpeed"
+speed_lore: "&ePuedes usarlo para drogarte."
+phenyl_name: "&efenilo"
+phenyl_lore: "&eLo necesitas para crear Velocidad."
+speed_death: "&un %player% murió debido a una sobredosis de Speed."
+
+#=================================================================================================#
+# Configuración de heroína:
+#=================================================================================================#
+heroin_name: "&eHeroína"
+heroin_lore: "&ePuedes usarlo para drogarte."
+syringe_name: "&eInyección"
+syringe_lore: "&eLo necesitas para llenar tu jeringa.."
+heroin_liquid_name: "&eLíquido de heroína"
+heroin_liquid_lore: "&eLo necesitas para llenar tu jeringa.."
+heroin_death: "&e%player% murió por una sobredosis de heroína."
+
+#=================================================================================================#
+# Configuración de Economy:
+#=================================================================================================#
+not_enough_money: "%prefix% &c¡No tienes suficiente dinero!"
+buy_success: "%prefix% &aCompraste exitosamente %amount% %item%!"

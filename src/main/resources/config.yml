@@ -1,0 +1,246 @@
+#=================================================================================================#
+#     Config file for the Drugs Plugin by Lars_SVW. Version 1.9.2
+#=================================================================================================#
+#
+#    If you need help, want to report bugs etc,
+#    feel free to join my Discord: http://coding.lars-svw.de
+#
+#    You can also send me private messages on Discord: Lars_SVW
+#    Or write me directly on Spigotmc: https://www.spigotmc.org/members/lars__svw.1064569/
+
+#=================================================================================================#
+#   General information:
+#=================================================================================================#
+#   You can edit everything here but please don't forget the " if any were given.
+#   The plugin may be used on all possible servers.
+#   However, the plugin creator assumes no liability for errors or other things that
+#   have to do with the plugin. The plugin may not be uploaded again, nor may it be sold
+#   to other users! If you need a different version of the plugin, please contact me
+#   using the contact options above.
+
+#=================================================================================================#
+#   Color Codes and Time Info:
+#=================================================================================================#
+#   &0 = Black        &a = Bright Green   &o = Italic(Cursiv)           Time Disclaimer:
+#   &1 = Dark Blue    &b = Aqua           &r = Reset                    In some config setting you
+#   &2 = Dark Green   &c = Red                                          can change the "cooldown"
+#   &3 = Dark Aqua    &d = Pink                                         or time in general
+#   &4 = Dark Red     &e = Yellow                                       you need to set the time in
+#   &5 = Purple       &f = White                                        seconds so here are some
+#   &6 = Gold         &k = Constantly changing characters               helpful times
+#   &7 = Gray         &l = Bold                                         1min = 60s,5min=300s
+#   &8 = Dark Gray    &m = Strike                                       10min = 600s, 30min = 1800s
+#   &9 = Indigo       &n = Underline                                    1h = 3600s, 1d = 86400
+#
+#=================================================================================================#
+#   All Minecraft Potion Effects:
+#=================================================================================================#
+#   1.ABSORPTION            16.INCREASE_DAMAGE    31.WITHER
+#   2.BAD_OMEN              17.INVISIBILITY
+#   3.BLINDNESS             18.JUMP
+#   4.CONDUIT_POWER         19.LEVITATION
+#   5.CONFUSION             20.LUCK
+#   6.DAMAGE_RESISTANCE     21.NIGHT_VISION
+#   7.DOLPHINS_GRACE        22.POISON
+#   8.FAST_DIGGING          23.REGENERATION
+#   9.FIRE_RESISTANCE       24.SATURATION
+#   10.GLOWING              25.SLOW_DIGGING
+#   11.HARM                 26.SLOW_FALLING
+#   12.HEAL                 27.SPEED
+#   13.HEALTH_BOOST         28.UNLUCK
+#   14.HERO_OF_THE_VILLAGE  29.WATER_BREATHING
+#   15.HUNGER               30.WEAKNESS
+#=================================================================================================#
+# General configuration:
+# Short information for example 0.05 = 5%, 0.10 = 10%, 0.5 = 50%, 1 = 100%
+#=================================================================================================#
+prefix: "&0&l[&a&lDrugs&0&l]"
+shrooms_chance: 0.03
+tobacco_chance: 0.1
+cocaine_chance: 0.01
+weed_chance: 0.03
+
+
+#=================================================================================================#
+# Weed configuration:
+#=================================================================================================#
+joint_duration: 30
+joint_effect_1: "SLOW"
+joint_effect_2: "HUNGER"
+joint_effect_3: "DAMAGE_RESISTANCE"
+weed_kill: 0.1
+Weed_value_detectable: 600 #10min
+#=================================================================================================#
+# Cocaine configuration:
+#=================================================================================================#
+cocaine_duration: 20
+cocaine_effect_1: "SPEED"
+cocaine_effect_2: "REGENERATION"
+cocaine_effect_3: "DAMAGE_RESISTANCE"
+cocaine_kill: 0.1
+Cocaine_value_detectable: 600 #10min
+#=================================================================================================#
+# Tobacco configuration:
+#=================================================================================================#
+tobacco_duration: 30
+tobacco_effect_1: "SLOW"
+tobacco_effect_2: "HUNGER"
+tobacco_effect_3: "DAMAGE_RESISTANCE"
+cigarette_kill: 0.1
+Tobacco_value_detectable: 600 #10min
+#=================================================================================================#
+# Shroom configuration:
+#=================================================================================================#
+shrooms_duration: 30
+shrooms_effect_1: "CONFUSION"
+shrooms_effect_2: "ABSORPTION"
+shrooms_effect_3: "SPEED"
+shroom_kill: 0.1
+Shroom_value_detectable: 600 #10min
+#=================================================================================================#
+# LSD configuration:
+#=================================================================================================#
+lsd_duration: 30
+lsd_effect_1: "HEALTH_BOOST"
+lsd_effect_2: "ABSORPTION"
+lsd_effect_3: "SPEED"
+lsd_kill: 0.1
+LSD_value_detectable: 600 #10min
+
+#=================================================================================================#
+# XTC configuration:
+#=================================================================================================#
+xtc_duration: 60
+xtc_effect_1: "SPEED"
+xtc_effect_2: "INCREASE_DAMAGE"
+xtc_effect_3: "HEALTH_BOOST"
+ecstasy_kill: 0.1
+XTC_value_detectable: 600 #10min
+
+#=================================================================================================#
+# Speed configuration:
+#=================================================================================================#
+speed_duration: 60
+speed_effect_1: "SPEED"
+speed_effect_2: "INCREASE_DAMAGE"
+speed_effect_3: "HEALTH_BOOST"
+speed_kill: 0.1
+Speed_value_detectable: 600 #10min
+
+#=================================================================================================#
+# Heroin configuration:
+#=================================================================================================#
+heroin_duration: 180
+heroin_effect_1: "SPEED"
+heroin_effect_2: "INCREASE_DAMAGE"
+heroin_effect_3: "HEALTH_BOOST"
+heroin_kill: 0.25
+Heroin_value_detectable: 600 #10min
+#=================================================================================================#
+# Crafting-Recipes configuration:
+#=================================================================================================#
+#Example Crafting for an Pickaxe:
+# A: "DIAMOND", B: "DIAMOND", C: "DIAMOND", D: "AIR", E: "STICK", F: "AIR", G: "AIR", H: "STICK", I:"AIR"
+#In this example crafting you have the default recipe for a Diamond-pickaxe. This one is only there so you know the scheme.
+#INFORMATION:
+#You can only adjust recipes that don't require any items added from the plugin, which means you can't change cigarettes and the like, but you can change the Zippos and the like.
+
+#Crafting Scheme:
+#A B C
+#D E F   = ITEM
+#G H I
+
+#Zippo Crafting
+zippo_material_a: "IRON_BLOCK"
+zippo_material_b: "AIR"
+zippo_material_c: "IRON_BLOCK"
+zippo_material_d: "IRON_BLOCK"
+zippo_material_e: "FLINT"
+zippo_material_f: "IRON_BLOCK"
+zippo_material_g: "IRON_BLOCK"
+zippo_material_h: "IRON_BLOCK"
+zippo_material_i: "IRON_BLOCK"
+
+#Glue Crafting
+glue_material_a: "AIR"
+glue_material_b: "AIR"
+glue_material_c: "AIR"
+glue_material_d: "GLASS"
+glue_material_e: "SLIME_BALL"
+glue_material_f: "GLASS"
+glue_material_g: "AIR"
+glue_material_h: "GLASS"
+glue_material_i: "AIR"
+
+#Pape Crafting
+pape_material_a: "AIR"
+pape_material_b: "AIR"
+pape_material_c: "AIR"
+pape_material_d: "AIR"
+pape_material_e: "AIR"
+pape_material_f: "AIR"
+pape_material_g: "PAPER"
+pape_material_h: "PAPER"
+pape_material_i: "PAPER"
+
+#Syringe Crafting
+syringe_material_a: "AIR"
+syringe_material_b: "GLASS"
+syringe_material_c: "AIR"
+syringe_material_d: "GLASS"
+syringe_material_e: "AIR"
+syringe_material_f: "GLASS"
+syringe_material_g: "AIR"
+syringe_material_h: "GLASS"
+syringe_material_i: "AIR"
+
+#Heroin Liquid Crafting
+heroin_liquid_material_a: "AIR"
+heroin_liquid_material_b: "BLAZE_ROD"
+heroin_liquid_material_c: "AIR"
+heroin_liquid_material_d: "AIR"
+heroin_liquid_material_e: "DRAGON_EGG"
+heroin_liquid_material_f: "AIR"
+heroin_liquid_material_g: "AIR"
+heroin_liquid_material_h: "ZOMBIE_HEAD"
+heroin_liquid_material_i: "AIR"
+
+
+#=================================================================================================#
+# Economy configuration:
+#=================================================================================================#
+hydrogen_price: 100
+lsd_price: 400
+lysergicacid_price: 100
+sodium_price: 100
+propanolamine: 100
+cigarette: 400
+glue: 100
+joint: 400
+longpapes: 100
+papes: 100
+zippo: 900
+weedseed: 10
+cocaineseed: 10
+tobaccoseed: 10
+weed: 200
+shroom: 400
+cocaine: 500
+tobacco: 400
+xtc: 400
+isosafrole: 100
+piperonal: 100
+safrole: 100
+speed: 500
+phenyl: 100
+heroinliquid: 100
+heroin: 500
+syringe: 100
+
+#Resourcepack
+#If you want to connect it to another texture pack on your server and add your own download link, you can do that here.
+#I recommend changing this in the config otherwise all downloads will be made via my website!
+resource_pack_url: "https://lars-svw.de/downloads/Drugs-by-Lars-SVW.zip"
+resource_pack_hash: "0ddc4188f4d4658088e3775e561770294ffd6275"
+#Not relevant#
+first_start: true

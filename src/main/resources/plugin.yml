@@ -1,0 +1,20 @@
+name: Drugs
+version: 1.9.2
+api-version: 1.13
+depend:
+  - Vault
+authors:
+  - Lars_SVW
+main: de.lars.drugs.Drugs
+description: A plugin to create/take drugs.
+
+commands:
+  drugs:
+    description: Main plugin command to buy/receive drugs, get Crafting infos "info" or to reload.
+  languageswitch:
+    description: With this command you can switch the language of the plugin.
+  languageprovided:
+    description: With this command you can see all the languages that the plugin provides.
+
+
+
